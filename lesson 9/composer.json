@@ -1,0 +1,19 @@
+{
+    "name": "styde/oop",
+    "description": "Demo project for the object-oriented programming course",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Santiago Medina",
+            "email": "carupanodev@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "files": ["src/helpers.php"],
+        "psr-4":{
+            "enigmaticNerd\\": "src/"
+        }
+    }
+}
