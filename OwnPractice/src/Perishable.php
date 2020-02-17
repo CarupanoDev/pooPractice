@@ -22,9 +22,9 @@ class Perishable extends Product
 		$this->daysToExpired = $daysToExpired;
 	}
 
-	public function calculate($cantidad)
+	public function calculate($quantity)
 	{
-		$finalPrice = parent::calculate($cantidad);
+		$finalPrice = parent::calculate($quantity);
 
 		switch($this->getDaysToExpired())
 		{
