@@ -33,9 +33,9 @@ class Product
 		$this->price = $price;
 	}
 
-	public function calculate($cantidad)
+	public function calculate($quantity)
 	{
-		return $this->getPrice() * $cantidad;
+		return $this->getPrice() * $quantity;
 	}	
 }
 
