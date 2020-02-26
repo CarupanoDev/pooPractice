@@ -1,0 +1,19 @@
+{
+    "name": "santiago/library",
+    "description": "Exercise using magic methods and iterator interface in PHP",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Santiago Medina",
+            "email": "carupanodev@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": 
+        {
+            "EnigmaticNerd\\": "src/"
+        }
+    }
+}
